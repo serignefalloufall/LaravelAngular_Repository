@@ -1,0 +1,26 @@
+<form (ngSubmit)="updateEmployee()">
+    <div class="form-row">
+
+        <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Name</label>
+            <input type="text" class="form-control" name="name" [(ngModel)]="employee.name">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label for="validationDefault02">Email</label>
+            <input type="text" class="form-control" name="email" [(ngModel)]="employee.email">
+        </div>
+
+        <div class="col-md-4 mb-3 ">
+            <label for="validationDefault02 ">Salary</label>
+            <input type="text " class="form-control " name="salary" [(ngModel)]="employee.salary">
+        </div>
+
+    </div>
+
+
+    <button class="btn btn-primary " type="submit ">Update</button>
+</form>
+
+<hr>
+<hr>
